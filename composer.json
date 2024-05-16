@@ -1,0 +1,29 @@
+{
+    "name": "richardsonoge/translate-pdf",
+    "description": "Free PHP package for translating any PDF document with the Google Translate API.",
+    "keywords": ["google", "translate", "translator", "php", "translating", "translate documents pdf"],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/richardsonoge/translate-pdf",
+    "authors": [
+        {
+            "name": "Richardson Oge",
+            "email": "richardsonoge34@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Richardsonoge\\Htdocs\\testTranslateHTML\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "stichoza/google-translate-php": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
